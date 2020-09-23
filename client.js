@@ -17,6 +17,13 @@ const connect = function () {
 
   conn.write("Name: SSK");
 
+  // conn.on('connect', (data) => {
+  //   conn.write("Move: up")
+  //   setTimeout(() =>  {
+  //       conn.write("Move: up")
+  //   },2000)
+  // })
+
   return conn;
 }
 
